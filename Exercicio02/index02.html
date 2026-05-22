@@ -1,0 +1,79 @@
+<!-- Menu fixo no topo
+Criar um menu que nunca sai da tela.
+Regras
+Um header com links (Home, Produtos, Contato)
+Ao rolar a página, ele continua visível -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style02.css" />
+    <title>Menu fixo no topo</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img src="img.jpg" alt="Logo da Loja da Bruxa" class="logo" />
+        <section id="home">
+            <h1>Bem-vindo ao nosso site!</h1>
+            <h2>Loja da Bruxa</h2>
+            <p>Explore nossos produtos e entre em contato conosco.</p>
+        </section>
+
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <p>Confira alguns de nossos produtos</p>
+
+            <ul>
+                <li>
+                    <h3>Incensos</h3>
+                    <img src="https://m.magazineluiza.com.br/a-static/420x420/incenso-natural-lavanda-e-calendula-flor-de-lotus/ccmistica/1327p/190e59cb7f28a076e08a04525dcd51bf.jpeg" alt="Incenso Flor de Lótus" class="incenso" />
+                    <p>Incenso Flor de Lótus</p>
+                    <p>O Incenso Flor de Lótus é uma fragrância suave e relaxante, perfeita para criar um ambiente de paz e serenidade. Ideal para meditação, yoga ou simplesmente para perfumar seu espaço com um aroma delicado e floral.</p>
+                </li>
+
+                <li>
+                    <h3>Poções</h3>
+                    <img src="https://acdn-us.mitiendanube.com/stores/002/621/783/products/picsart_24-09-15_20-59-09-812-981fddbeb8a6a5d3cf17264503424527-240-0.webp" alt="Poção Mágica Elixir" class="pocao" />
+                    <p>Poção de Elixir</p>
+                    <p>O Elixir é um frasco decorativo que evoca sabedoria e vitalidade, simbolizando poder e rejuvenescimento. Perfeito para adicionar um toque de mistério e encanto à sua estante ou altar mágico.</p>
+                </li>
+
+                <li>
+                    <h3>Essências</h3>
+                    <p>Essência Menta Pipirita</p>
+                    <img src="https://cdn.dooca.store/1464/products/8-32_640x640+fill_ffffff.jpg?v=1657127486&webp=0" alt="Essência Menta Pipirita" class="essencia" />
+                    <p>A menta pipirita é expectorante e descongestionante, promove liberação das vias nasais; Auxilia com problemas respiratórios, ótimo para sinusite e rinite.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h3>Contato</h3>
+            <p>Entre em contato conosco para mais informações.</p>
+            <br>
+            <button><a href="https://www.whatsapp.com/lojadabruxa/">WhatsApp</a></button>
+
+            <section id="redes-sociais">
+                <p>Conheça nossas redes sociais:</p>
+                <a href="https://www.instagram.com/lojadabruxa/">Instagram</a>
+                <a href="https://www.facebook.com/lojadabruxa">Facebook</a>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
