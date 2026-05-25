@@ -9,11 +9,13 @@
 ### Um selo “NOVO” ou “PROMO”
 ### O selo deve ficar no canto do card
 
+
 ## 2) Menu fixo no topo
 ### Criar um menu que nunca sai da tela.
 ### Regras
 ### Um header com links (Home, Produtos, Contato)
 ### Ao rolar a página, ele continua visível
+
 
 ## 3) Sidebar que acompanha o scroll
 ### Criar uma barra lateral que fica visível enquanto rola.
@@ -21,6 +23,7 @@
 ### Sidebar com lista de categorias
 ### Conteúdo grande ao lado
 ### Sidebar deve “grudar” ao rolar
+
 
 ## 4) Card com botão flutuando dentro
 ### Colocar um botão dentro de um card no canto inferior direito.
@@ -35,11 +38,13 @@
 ### Não se move ao scroll
 ### Sempre visível
 
+
 ## 6) Etiqueta sobre imagem
 ### Colocar uma tag em cima da imagem.
 ### Regras
 ### Imagem de produto
 ### Selo “-50%” em cima da imagem
+
 
 ## 7) Página com header sticky + conteúdo longo
 ### Entender sticky de forma clara.
@@ -48,6 +53,7 @@
 ### Texto grande (vários parágrafos)
 ### Header deve grudar ao rolar
 
+
 ## 8) Layout com 2 colunas sem flex
 ### Simular layout clássico de site.
 ### Regras
@@ -55,6 +61,7 @@
 ### Conteúdo direita
 ### Sidebar pode ser sticky
 ### Tudo sem flexbox
+
 
 ## 9) Elementos sobrepostos
 ### Criar camadas visuais.
