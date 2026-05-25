@@ -1,153 +1,156 @@
-/* Reset básico */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Tahoma', sans-serif;
-}
-
-body {
-    background-color: #f1f1f1;
-}
-
-
-/* --- MENU FIXO NO TOPO (BARRA AZUL) --- */
-
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    /* Altura fina padrão para não cobrir a tela */
-    background-color: #1b497b;
-    display: flex;
-    justify-content: center;
-    /* Empurra os links para o canto direito */
-    align-items: center;
-    padding: 0 40px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    z-index: 1000;
-    /* Fica por cima de tudo ao rolar a página */
-    text-align: center;
-}
-
-
-/* Alinhamento do menu em formato horizontal */
-
-header nav ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-header nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem;
-    transition: color 0.2s ease;
-}
-
-header nav ul li a:hover {
-    color: #dc612f;
-}
-
-
-/* --- CONTEÚDO PRINCIPAL (ABAIXO DA BARRA) --- */
-
-main {
-    /* Padding-top igual à altura do header para o conteúdo começar logo abaixo dele */
-    padding-top: 60px;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-
-/* Centralização perfeita da imagem do Banner */
-
-.logo {
-    display: block;
-    width: 950px;
-    /* Mantido o seu tamanho */
-    height: 500px;
-    /* Mantido o seu tamanho */
-    object-fit: cover;
-    margin: 20px auto;
-    /* Centraliza horizontalmente e dá um espaço do menu */
-}
-
-
-/* Estilização das Seções */
-
-section {
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    margin-bottom: 20px;
-}
-
-h1,
-h2,
-h3 {
-    text-align: center;
-    margin-bottom: 15px;
-    color: #333;
-}
-
-p {
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 15px;
-}
-
-
-/* Imagens dos Produtos */
-
-.incenso,
-.pocao,
-.essencia {
-    display: block;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin: 15px auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-
-/* Estilo do botão do WhatsApp */
-
-button {
-    display: block;
-    margin: 15px auto;
-    padding: 10px 20px;
-    background-color: #25d366;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#redes-sociais {
-    text-align: center;
-    margin-top: 20px;
-    border-top: 1px solid #ddd;
-    padding-top: 15px;
-}
-
-#redes-sociais a {
-    margin: 0 10px;
-    color: #1b497b;
-    font-weight: bold;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #5C0C70;
+    }
+    
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background-color: #9F15C2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 40px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        z-index: 1000;
+        text-align: center;
+        font-family: "Uncial Antiqua", system-ui;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    header nav ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    header nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+        transition: color 0.2s ease;
+        text-align: center;
+    }
+    
+    header nav ul li a:hover {
+        color: #dc612f;
+    }
+    
+    main {
+        padding-top: 60px;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    
+    .logo {
+        display: block;
+        width: 950px;
+        height: 500px;
+        object-fit: cover;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    section {
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        text-align: center;
+        margin-bottom: 15px;
+        color: #333;
+        font-family: "Uncial Antiqua", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    h1 {
+        color: #C11AEB;
+    }
+    
+    h2 {
+        color: #9F15C2;
+    }
+    
+    h3 {
+        color: #7E1199;
+    }
+    
+    p {
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 15px;
+        text-align: center;
+        font-family: "Uncial Antiqua", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .incenso,
+    .pocao,
+    .essencia {
+        display: block;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin: 15px auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-family: "Uncial Antiqua", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    button {
+        display: block;
+        margin: 5px auto;
+        padding: 10px 10px;
+        background-color: #25d366;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #redes-sociais {
+        text-align: center;
+        margin-top: 20px;
+        border-top: 1px solid #ddd;
+        padding-top: 15px;
+    }
+    
+    #redes-sociais a {
+        margin: 0 10px;
+        color: #c951fc;
+        font-weight: bold;
+        text-decoration: underline;
+        text-align: center;
+    }
