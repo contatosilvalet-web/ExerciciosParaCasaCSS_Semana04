@@ -1,0 +1,43 @@
+<!-- 7) Página com header sticky + conteúdo longo
+Entender sticky de forma clara.
+Regras
+Header no topo
+Texto grande (vários parágrafos)
+Header deve grudar ao rolar -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style06.css" />
+
+    <title>Etiqueta sobre imagem</title>
+</head>
+
+<body>
+    <header class="meu-header">
+        <div class="logo">MeuSite</div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main class="conteudo-longo">
+        <h1>Conteúdo Principal</h1>
+        <p>Role a página para ver o header se manter fixo no topo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec vehicula massa. Cras convallis massa et metus euismod, ut ullamcorper sapien dictum. Mauris porta gravida tellus, ac dictum sem tristique sit amet.</p>
+
+        <!-- Adicionando muito texto para criar barra de rolagem -->
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p>Mais texto para demonstrar a rolagem da página...</p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p>O header continuará fixo no topo da tela, mesmo rolando todo este conteúdo longo para baixo.</p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </main>
+</body>
+
+</html>
