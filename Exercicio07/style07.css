@@ -1,0 +1,56 @@
+/* Reset básico para garantir que o header encoste nas bordas */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+
+/* O segredo do Header Sticky */
+
+.meu-header {
+    position: sticky;
+    top: 0;
+    /* Define onde ele vai "grudar" na tela */
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    /* Garante que o header fique por cima do conteúdo */
+}
+
+
+/* Estilização do menu */
+
+.meu-header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.meu-header nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Conteúdo da página */
+
+.conteudo-longo {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    /* Centraliza o conteúdo */
+    background-color: #fff;
+    min-height: 2000px;
+    /* Cria rolagem longa */
+}
