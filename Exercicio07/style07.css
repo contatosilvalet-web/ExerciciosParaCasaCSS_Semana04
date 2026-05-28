@@ -1,56 +1,142 @@
-/* Reset básico para garantir que o header encoste nas bordas */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-/* O segredo do Header Sticky */
-
 .meu-header {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    /* Define onde ele vai "grudar" na tela */
-    background-color: #333;
-    color: #fff;
-    padding: 15px 20px;
+    width: 100%;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 8%;
+    background-color: #14202D;
+    color: #ffffff;
     z-index: 1000;
-    /* Garante que o header fique por cima do conteúdo */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 }
 
+.logo {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #43A2F6;
+}
 
-/* Estilização do menu */
+.meu-header nav {
+    display: flex;
+    gap: 25px;
+}
 
 .meu-header nav a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
-    margin-left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: color 0.3s ease;
 }
 
 .meu-header nav a:hover {
-    text-decoration: underline;
+    color: #43A2F6;
 }
 
-
-/* Conteúdo da página */
+.imagem-header {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+}
 
 .conteudo-longo {
-    padding: 40px 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    /* Centraliza o conteúdo */
-    background-color: #fff;
-    min-height: 2000px;
-    /* Cria rolagem longa */
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 5%;
+    background-color: #ffffff;
+    margin: 40px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.imagem-zebrafish {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto 10px auto;
+    border-radius: 4px;
+}
+
+.conteudo-longo em {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    color: #666666;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.secao {
+    font-size: 32px;
+    color: #14202D;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #EAEAEA;
+    padding-bottom: 8px;
+}
+
+.conteudo-longo h1:first-of-type {
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 20px;
+    color: #2b8ad6;
+    margin: 20px 0 10px 0;
+}
+
+h4 {
+    font-size: 18px;
+    color: #14202D;
+    margin: 25px 0 10px 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444444;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+ul,
+ol {
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+li {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #444444;
+    margin-bottom: 8px;
+}
+
+strong {
+    color: #14202D;
 }
