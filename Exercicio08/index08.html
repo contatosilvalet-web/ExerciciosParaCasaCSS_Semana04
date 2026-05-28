@@ -1,0 +1,72 @@
+<!-- Layout com 2 colunas sem flex
+Simular layout clássico de site.
+Regras
+Sidebar esquerda
+Conteúdo direita
+Sidebar pode ser sticky
+Tudo sem flexbox
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style08.css" />
+    <title>Layout com 2 colunas sem flex</title>
+</head>
+
+<body>
+    <div class="layout-container">
+
+        <aside class="sidebar-esquerda">
+            <div class="conteudo-sticky">
+                <h3>Tecnologia Assistiva</h3>
+                <ul>
+                    <li><a href="#link1">Comunicação Aumentativa (CAA)</a></li>
+                    <li><a href="#link2">Acessibilidade Digital</a></li>
+                    <li><a href="#link3">Mobilidade e Esporte</a></li>
+                    <li><a href="#link4">Adaptação de Ambientes</a></li>
+                    <li><a href="#link5">Educação Inclusiva</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="conteudo-direita">
+            <h1>Tecnologia Assistiva (TA)</h1>
+            <p class="introducao">A Tecnologia Assistiva (TA) é uma área interdisciplinar de recursos, metodologias e serviços que promovem a autonomia, independência e qualidade de vida de pessoas com deficiência ou mobilidade reduzida. Ela engloba desde soluções simples
+                e de baixo custo até softwares e hardwares avançados.</p>
+
+            <div class="bloco-texto" id="link1">
+                <h2>Comunicação Aumentativa e Alternativa (CAA)</h2>
+                <p>Aplicativos e pranchas que auxiliam pessoas sem fala funcional a se comunicarem, como o Hand Talk.</p>
+            </div>
+
+            <div class="bloco-texto" id="link2">
+                <h2>Acessibilidade Digital</h2>
+                <p>Soluções tecnológicas que garantem o acesso a informações e serviços digitais para pessoas com deficiência.</p>
+            </div>
+
+            <div class="bloco-texto" id="link3">
+                <h2>Mobilidade e Esporte</h2>
+                <p>Equipamentos e tecnologias que promovem a mobilidade e a participação em atividades esportivas.</p>
+            </div>
+
+            <div class="bloco-texto" id="link4">
+                <h2>Adaptação de Ambientes</h2>
+                <p>Modificações em ambientes físicos para facilitar o acesso e a autonomia de pessoas com deficiência.</p>
+            </div>
+
+            <div class="bloco-texto" id="link5">
+                <h2>Educação Inclusiva</h2>
+                <p>Softwares de leitura de texto para áudio, engrossadores de lápis e mesas adaptadas.</p>
+            </div>
+        </main>
+
+        <div class="clearfix"></div>
+
+    </div>
+</body>
+
+</html>
