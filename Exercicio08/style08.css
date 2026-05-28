@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #F8FAFC;
+    color: #334155;
+    padding: 50px 0;
+}
+
+.layout-container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.sidebar-esquerda {
+    float: left;
+    width: 28%;
+    padding-right: 30px;
+}
+
+.conteudo-direita {
+    float: right;
+    width: 72%;
+    background-color: #ffffff;
+    padding: 40px 45px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(15, 23, 42, 0.05);
+}
+
+.conteudo-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+    background-color: #0F172A;
+    color: #ffffff;
+    padding: 30px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.conteudo-sticky h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #38BDF8;
+    border-bottom: 2px solid rgba(56, 189, 248, 0.2);
+    padding-bottom: 8px;
+}
+
+.conteudo-sticky ul {
+    list-style: none;
+}
+
+.conteudo-sticky ul li {
+    margin-bottom: 15px;
+}
+
+.conteudo-sticky ul li a {
+    color: #94A3B8;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    display: inline-block;
+    transition: color 0.2s ease;
+}
+
+.conteudo-sticky ul li a:hover {
+    color: #10B981;
+}
+
+.conteudo-direita h1 {
+    font-size: 36px;
+    color: #0F172A;
+    margin-bottom: 15px;
+}
+
+.conteudo-direita .introducao {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #475569;
+    margin-bottom: 35px;
+}
+
+.bloco-texto {
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.bloco-texto:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.bloco-texto h2 {
+    font-size: 22px;
+    color: #0F172A;
+    margin-bottom: 10px;
+}
+
+.bloco-texto p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #334155;
+}
+
+.clearfix {
+    clear: both;
+}
